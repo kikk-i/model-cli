@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+exec uv run --with rich python \
+  "$HOME/.local/lib/model-cli/model_cli.py" \
+  "$@"
